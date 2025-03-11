@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from datetime import datetime,timedelta
 
-
+# Función para detectar y contar varillas circulares en una región específica
 def contar_varillas_circulares(frame, roi):
     # Recortar la región de interés (ROI) del frame
     x, y, w, h = roi
