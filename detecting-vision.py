@@ -7,7 +7,7 @@ def contar_varillas_circulares(frame, roi):
     # Recortar la región de interés (ROI) del frame
     x, y, w, h = roi
     roi_frame = frame[y:y+h, x:x+w]
-     
+      
     # Convertir a escala de grises
     gris = cv2.cvtColor(roi_frame, cv2.COLOR_BGR2GRAY)
     
